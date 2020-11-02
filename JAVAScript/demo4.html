@@ -9,6 +9,10 @@
         var username = prompt("Enter Name", "Ram");
         alert("Welcome " + username);
         document.write("Great Day ", username);
+        username = localStorage.getItem('uname');
+        message = localStorage.getItem('message');
+        alert(username);
+        alert(message);
     </script>
 </head>
 
